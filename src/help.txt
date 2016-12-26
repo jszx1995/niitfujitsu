@@ -1,0 +1,28 @@
+This order by the Nanjing Industry Polytechnic Institute Fujitsu class development of the second group. all rights reserved
+
+-l <file/directory>, --list <file/directory>
+ 	List the properties of the object.
+ 	1, file or directory
+ 	2, the operating properties of the object
+ 	3, the size of the object
+	4, the last visit time
+
+-d <file>, --display <file>
+ 	List the specific contents of the file, when the object is a directory, the prompt does not support the parameter.
+
+-c <file> <mode>, --create <file> <mode>
+ 	Create a file, when the file exists, to the file properties of the new, or the default properties of the new.
+
+-m <directory> <mode>, --mkdir <directory> <mode>
+ 	Create a directory, when the directory exists, to the directory properties of the new, or the default property is new.
+
+-r <file/directory>, --delete<file/directory>
+ 	Delete a file or directory.
+
+-p <source  destination>, --copy <source  destination>
+ 	Copy files and file attributes.
+	Copy directory and directory attributes.
+
+-s <source  destination>, --symlink <source  destination> 
+	Create a soft connection for a file or directory.
+
